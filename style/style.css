@@ -127,7 +127,7 @@ button {
   justify-content: center;
   gap: 32px;
 }
-.card {
+.card{
   width: calc(33.33% - 21.33px);
   height: 189px;
   background: var(--cardsBg);
@@ -139,6 +139,9 @@ button {
   color: white;
   border-radius: 8px;
   padding: 0 34px;
+}
+.card:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 /* infobox */
@@ -222,6 +225,9 @@ button {
 }
 .footer__nameCompany a {
   color: white;
+}
+.footer__nameCompany a:hover {
+    text-decoration: underline;
 }
 
 /* media  */
