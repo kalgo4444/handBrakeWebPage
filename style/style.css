@@ -46,6 +46,7 @@ button {
 /* header  */
 .header {
   background: var(--headerBG);
+  padding-bottom: 50px;
 }
 .navbar {
   height: 136px;
@@ -233,6 +234,9 @@ button {
 /* media  */
 @media (max-width: 900px) {
   /* hero  */
+  .header {
+    padding-bottom: 40px;
+  }
   .hero__name {
     font-size: 64px;
   }
@@ -276,6 +280,9 @@ button {
 
 @media (max-width: 500px) {
   /* hero  */
+  .header {
+    padding-bottom: 25px;
+  }
   .hero {
     display: flex;
     align-items: center;
